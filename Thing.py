@@ -31,10 +31,6 @@ class Boolean:
         setattr(self.base, 'is_not_a_' + name, not self.attr_value)
 
 
-# !python3.8.0
-# -*-encoding:utf-8-*-
-
-
 class SetProper:
     def __init__(self, mid):
         self.mid = mid
